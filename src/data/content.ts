@@ -148,3 +148,49 @@ export const PRICING_TIERS = [
     ],
   },
 ];
+
+export const STATS = [
+  { label: 'Projects Delivered', value: 120 },
+  { label: 'Enterprise Clients', value: 45 },
+  { label: 'Countries Served', value: 18 },
+  { label: 'Team Specialists', value: 32 },
+];
+
+export const TESTIMONIALS = [
+  {
+    name: 'Aarav Mehta',
+    role: 'CTO, NovaGrid',
+    content: 'Binary Expert Systems helped us modernize our platform without slowing down delivery. The result was faster performance, cleaner architecture, and a team that could finally move with confidence.',
+  },
+  {
+    name: 'Sophia Bennett',
+    role: 'Head of Product, Helio Labs',
+    content: 'They brought strategy, design, and engineering together in a way very few partners can. Every release felt sharper, faster, and more intentional than the last.',
+  },
+  {
+    name: 'Daniel Kim',
+    role: 'Founder, Atlas Commerce',
+    content: 'From design system work to cloud scalability, they handled the hard problems with clarity. Our conversion rates improved and the product finally felt enterprise-ready.',
+  },
+];
+
+export const BLOG_POSTS = [
+  {
+    title: 'Designing Fast Products for Slow Networks',
+    date: 'Mar 12, 2026',
+    excerpt: 'A practical look at performance-first UI decisions that keep products usable in real-world conditions.',
+    image: 'https://picsum.photos/seed/bes-blog-performance/1200/800',
+  },
+  {
+    title: 'How Modern Design Systems Reduce Engineering Drag',
+    date: 'Feb 26, 2026',
+    excerpt: 'Why shared components, tokens, and documentation create leverage across product and engineering teams.',
+    image: 'https://picsum.photos/seed/bes-blog-design-system/1200/800',
+  },
+  {
+    title: 'Choosing the Right Cloud Shape for Scale',
+    date: 'Jan 18, 2026',
+    excerpt: 'Serverless, containers, and hybrid stacks all have tradeoffs. Here is how we evaluate them for growing teams.',
+    image: 'https://picsum.photos/seed/bes-blog-cloud/1200/800',
+  },
+];
